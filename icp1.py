@@ -7,6 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1fXoZ9CQ5edaDSpurFh4T3ZX0k8_jPPAM
 """
 
+#Question 1
 ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
 #Sort the list and find the min and max age
 ages.sort()
@@ -31,6 +32,7 @@ print("average is %.3f"%(sum(ages)/len(ages)))
 #Find the range of the ages (max minus min)
 print("range of the list ages is: ", (maxi-mini))
 
+#Question 2
 #Create an empty dictionary called dog
 dog={}
 #Add name, color, breed, legs, age to the dog dictionary
@@ -71,6 +73,7 @@ print(keylist)
 valuelist = list(student.values())
 print(valuelist)
 
+#Question 3
 #Create a tuple containing names of your sisters and your brothers
 sisters = ('pranavi','ramya', 'harini')
 brothers = ('anil', 'vamsi')
@@ -88,6 +91,7 @@ print("no.of siblings: ", len(siblings))
 family_members = siblings + ('sailaja', 'brahmam')
 print('family_members: ',family_members)
 
+#Question 4
 it_companies = {'Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'}
 A = {19, 22, 24, 20, 25, 26}
 B = {19, 22, 20, 25, 26, 24, 28, 27}
@@ -140,6 +144,7 @@ B.clear()
 ageset=set(age)
 print("the length of the set is %d while the length of the list is %d"%(len(ageset),len(age)))
 
+#Question 5
 import math
 
 #for static input
@@ -151,18 +156,22 @@ _circum_of_circle_ = 2*math.pi*rad
 userrad= int(input('enter radius of the circle '))
 print('area of given circle is %.2f '%(math.pi*(userrad**2)))
 
+#Question 6
 str = "I am a teacher and I love to inspire and teach people"
 unique=set(str.split())
 print(unique)
 print('unique words used in the sentence are: ',len(unique))
 
+#Question 7
 print('Name\tAge\tCountry\tCity')
 print('Asabeneh\t250\tFinland\tHelsinki')
 
+#Question 8
 radius = 10
 area = 3.14 * radius ** 2
 print("The area of a circle with radius {} is {} meters square.".format(radius,int(area)))
 
+#Question 9
 N=int(input('enter number of students '))
 weight_lb=[]
 for i in range(N):
