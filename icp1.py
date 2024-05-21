@@ -26,7 +26,7 @@ n=len(ages)
 if (n%2==0):
     print("\nmedian is %d"%((ages[n//2]+ages[(n//2)-1])/2))
 else:
-    print("\nmedian is %d"%(ages[(n//2)+1]))
+    print("\nmedian is %d"%(ages[(n//2)]))
 #Find the average age (sum of all items divided by their number)
 print("average is %.3f"%(sum(ages)/len(ages)))
 #Find the range of the ages (max minus min)
